@@ -1,0 +1,13 @@
+ 
+<html>
+<head>
+  <title>Créer un potin</title>
+</head>
+<body>
+  <h1>Bienvenue au potin n°<%= number %></h1>
+  <p>
+    L'auteur de ce gossip est <%= gossips_specific.find(number).author %><br/>
+    Le contenu <%= gossips_specific.find(number).content %> </>
+  </p>
+</body>
+</html>
